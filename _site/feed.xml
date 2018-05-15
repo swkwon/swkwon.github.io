@@ -1,1 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-14T17:20:26+09:00</updated><id>http://localhost:4000/</id><title type="html">WilliamNB</title><subtitle>Awesome!</subtitle><author><name>Your Name</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-15T11:56:56+09:00</updated><id>http://localhost:4000/</id><title type="html">매일공부</title><subtitle>매일 공부하고 정리하자</subtitle><author><name>William</name><email>swkwon04@gmail.com</email></author><entry><title type="html">Markdown 정리</title><link href="http://localhost:4000/markdown-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="Markdown 정리" /><published>2018-05-15T00:00:00+09:00</published><updated>2018-05-15T00:00:00+09:00</updated><id>http://localhost:4000/markdown%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/markdown-%EC%A0%95%EB%A6%AC/">&lt;h2 id=&quot;헤더&quot;&gt;헤더&lt;/h2&gt;
+&lt;p&gt;html의 &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; 또는 &lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt;와 같은 헤더 태그는 &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;으로 표시할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 이것은 h1
+## 이것은 h2
+### 이것은 h3
+#### 이것은 h4
+##### 이것은 h5
+###### 이것은 h6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;code-snippet&quot;&gt;code snippet&lt;/h2&gt;
+&lt;p&gt;코드를 넣을 때는 아래와 같이 입력한다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% highlight javascript %}
+/* this is javascript comment */
+var raw = [&quot;r&quot;, &quot;a&quot;, &quot;w&quot;];
+{% endhighlight %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;이탤릭-볼드-선긋기&quot;&gt;이탤릭, 볼드, 선긋기&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*이탤릭*
+_이것도 이탤릭_
+**볼드**
+__이것도 볼드__
+~~선긋기~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;리스트&quot;&gt;리스트&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 리스트 만들기1
+- 리스트 만들기2
+- 리스트 만들기3
+
+* 별1
+    * 별2
+        * 별3
+
+1. step 1
+2. step 2
+3. step 3
+    1. step 3.1
+    2. step 3.2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;인용구&quot;&gt;인용구&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;내가 사용하는 인용구
+&amp;gt; 인용구 1
+&amp;gt;&amp;gt; 인용구 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;code-block&quot;&gt;code block&lt;/h2&gt;
+
+&lt;pre&gt;
+```javascript
+var cl = function() {
+    console.log(&quot;hello world&quot;);
+}
+```
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;링크&quot;&gt;링크&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[구글](http://www.google.com)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;일감&quot;&gt;일감&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] homework
+- [x] running
+- [ ] meet friend
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;테이블&quot;&gt;테이블&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;컬럼1&lt;/th&gt;
+      &lt;th&gt;컬럼2&lt;/th&gt;
+      &lt;th&gt;컬럼3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;raw1-1&lt;/td&gt;
+      &lt;td&gt;raw1-2&lt;/td&gt;
+      &lt;td&gt;raw1-3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;raw2-1&lt;/td&gt;
+      &lt;td&gt;raw2-2&lt;/td&gt;
+      &lt;td&gt;raw2-3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;raw3-1&lt;/td&gt;
+      &lt;td&gt;raw3-2&lt;/td&gt;
+      &lt;td&gt;raw3-3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>William</name><email>swkwon04@gmail.com</email></author><summary type="html">헤더 html의 h1 또는 h2와 같은 헤더 태그는 #으로 표시할 수 있다.</summary></entry></feed>
