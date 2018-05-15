@@ -1,99 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-15T11:56:56+09:00</updated><id>http://localhost:4000/</id><title type="html">매일공부</title><subtitle>매일 공부하고 정리하자</subtitle><author><name>William</name><email>swkwon04@gmail.com</email></author><entry><title type="html">Markdown 정리</title><link href="http://localhost:4000/markdown-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="Markdown 정리" /><published>2018-05-15T00:00:00+09:00</published><updated>2018-05-15T00:00:00+09:00</updated><id>http://localhost:4000/markdown%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/markdown-%EC%A0%95%EB%A6%AC/">&lt;h2 id=&quot;헤더&quot;&gt;헤더&lt;/h2&gt;
-&lt;p&gt;html의 &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; 또는 &lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt;와 같은 헤더 태그는 &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;으로 표시할 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 이것은 h1
-## 이것은 h2
-### 이것은 h3
-#### 이것은 h4
-##### 이것은 h5
-###### 이것은 h6
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-16T00:27:13+09:00</updated><id>http://localhost:4000/</id><title type="html">매일공부</title><subtitle>매일매일 공부하고 정리하는 곳입니다.</subtitle><entry><title type="html">markdown 사용법</title><link href="http://localhost:4000/jekyll/update/2018/05/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="markdown 사용법" /><published>2018-05-15T23:19:48+09:00</published><updated>2018-05-15T23:19:48+09:00</updated><id>http://localhost:4000/jekyll/update/2018/05/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/05/15/welcome-to-jekyll.html">&lt;h3 id=&quot;강조&quot;&gt;강조&lt;/h3&gt;
+&lt;p&gt;글을 작성할 때 특별한 단어에 &lt;code class=&quot;highlighter-rouge&quot;&gt;강조&lt;/code&gt;를 주고 싶을 때가 있다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;글을 작성할 때 특별한 단어에 `강조`를 주고 싶을 때가 있다.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;code-snippet&quot;&gt;code snippet&lt;/h2&gt;
-&lt;p&gt;코드를 넣을 때는 아래와 같이 입력한다.&lt;/p&gt;
+&lt;p&gt;이렇게 입력하면 문장 내 단어에 강조를 줄 수 있다.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% highlight javascript %}
-/* this is javascript comment */
-var raw = [&quot;r&quot;, &quot;a&quot;, &quot;w&quot;];
-{% endhighlight %}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;이탤릭-볼드-선긋기&quot;&gt;이탤릭, 볼드, 선긋기&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*이탤릭*
-_이것도 이탤릭_
-**볼드**
-__이것도 볼드__
-~~선긋기~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;리스트&quot;&gt;리스트&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 리스트 만들기1
-- 리스트 만들기2
-- 리스트 만들기3
-
-* 별1
-    * 별2
-        * 별3
-
-1. step 1
-2. step 2
-3. step 3
-    1. step 3.1
-    2. step 3.2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;인용구&quot;&gt;인용구&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;내가 사용하는 인용구
-&amp;gt; 인용구 1
-&amp;gt;&amp;gt; 인용구 2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;code-block&quot;&gt;code block&lt;/h2&gt;
-
+&lt;h3 id=&quot;코드블럭&quot;&gt;코드블럭&lt;/h3&gt;
+&lt;p&gt;코드를 사용하고 싶을 때는 아래와 같이 입력하면 된다.
+파이썬 코드의 경우 python을 입력해주면 된다.&lt;/p&gt;
 &lt;pre&gt;
-```javascript
-var cl = function() {
-    console.log(&quot;hello world&quot;);
-}
+```python
+  str = &quot;Hello world&quot;
+  print(str)
 ```
 &lt;/pre&gt;
-
-&lt;h2 id=&quot;링크&quot;&gt;링크&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[구글](http://www.google.com)
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello world&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;일감&quot;&gt;일감&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] homework
-- [x] running
-- [ ] meet friend
+&lt;h3 id=&quot;헤더&quot;&gt;헤더&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; 을 이용하여 헤더를 표시할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 헤더 2
+### 헤더 3
+#### 헤더 4
+##### 헤더 5
+###### 헤더 6
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;테이블&quot;&gt;테이블&lt;/h2&gt;
+&lt;h2 id=&quot;헤더-2&quot;&gt;헤더 2&lt;/h2&gt;
+&lt;h3 id=&quot;헤더-3&quot;&gt;헤더 3&lt;/h3&gt;
+&lt;h4 id=&quot;헤더-4&quot;&gt;헤더 4&lt;/h4&gt;
+&lt;h5 id=&quot;헤더-5&quot;&gt;헤더 5&lt;/h5&gt;
+&lt;h6 id=&quot;헤더-6&quot;&gt;헤더 6&lt;/h6&gt;
+
+&lt;h3 id=&quot;리스트&quot;&gt;리스트&lt;/h3&gt;
+&lt;p&gt;순서 없는 리스트를 표시할 때는 &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt; 등을 사용한다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* 리스트 아이템 1
+- 리스트 아이템 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;리스트 아이템 1&lt;/li&gt;
+  &lt;li&gt;리스트 아이템 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;을 섞어 사용해도 괜찮다.&lt;/p&gt;
+
+&lt;h3 id=&quot;순서있는-리스트&quot;&gt;순서있는 리스트&lt;/h3&gt;
+&lt;p&gt;순서 있는 리스트를 사용할 때는 숫자를 입력해주면 된다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 아이템 1
+1. 아이템 2
+1. 아이템 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;아이템 1&lt;/li&gt;
+  &lt;li&gt;아이템 2&lt;/li&gt;
+  &lt;li&gt;아이템 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;이탤릭-볼드-취소선&quot;&gt;이탤릭, 볼드, 취소선&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic*
+_이것도 Italic_
+**Bold**
+__이것도 Bold__
+~~취소선~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;이것도 Italic&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;Bold&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;이것도 Bold&lt;/strong&gt;&lt;br /&gt;
+&lt;del&gt;취소선&lt;/del&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;task&quot;&gt;Task&lt;/h3&gt;
+&lt;p&gt;일감 리스트는 아래와 같이 입력한다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] 완료한 일감
+- [x] 완료한 일감
+- [ ] 해야할 일감
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;완료한 일감&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;완료한 일감&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;해야할 일감&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;table&quot;&gt;Table&lt;/h3&gt;
+&lt;p&gt;표를 작성할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;컬럼 1 | 컬럼 2
+--- | ---
+항목 1 | 항목 2
+항목 3 | 항목 4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;컬럼1&lt;/th&gt;
-      &lt;th&gt;컬럼2&lt;/th&gt;
-      &lt;th&gt;컬럼3&lt;/th&gt;
+      &lt;th&gt;컬럼 1&lt;/th&gt;
+      &lt;th&gt;컬럼 2&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;raw1-1&lt;/td&gt;
-      &lt;td&gt;raw1-2&lt;/td&gt;
-      &lt;td&gt;raw1-3&lt;/td&gt;
+      &lt;td&gt;항목 1&lt;/td&gt;
+      &lt;td&gt;항목 2&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;raw2-1&lt;/td&gt;
-      &lt;td&gt;raw2-2&lt;/td&gt;
-      &lt;td&gt;raw2-3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;raw3-1&lt;/td&gt;
-      &lt;td&gt;raw3-2&lt;/td&gt;
-      &lt;td&gt;raw3-3&lt;/td&gt;
+      &lt;td&gt;항목 3&lt;/td&gt;
+      &lt;td&gt;항목 4&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>William</name><email>swkwon04@gmail.com</email></author><summary type="html">헤더 html의 h1 또는 h2와 같은 헤더 태그는 #으로 표시할 수 있다.</summary></entry></feed>
+&lt;/table&gt;
+
+&lt;h3 id=&quot;링크&quot;&gt;링크&lt;/h3&gt;
+&lt;p&gt;링크를 추가할 때는 아래와 같이 입력한다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[깃헙](https://github.com)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com&quot;&gt;깃헙&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;이모찌&quot;&gt;이모찌&lt;/h3&gt;
+&lt;p&gt;이모찌 추가하기 :bowtie:&lt;/p&gt;</content><author><name></name></author><summary type="html">강조 글을 작성할 때 특별한 단어에 강조를 주고 싶을 때가 있다. 글을 작성할 때 특별한 단어에 `강조`를 주고 싶을 때가 있다.</summary></entry></feed>
