@@ -2,7 +2,7 @@
 layout: post
 title:  "markdown 사용법"
 date:   2018-05-15 23:19:48 +0900
-categories: jekyll update
+tags: [markdown, tag1]
 ---
 ### 강조
 글을 작성할 때 특별한 단어에 `강조`를 주고 싶을 때가 있다. 
@@ -112,7 +112,3 @@ __이것도 Bold__<br/>
 ```
 
 [깃헙](https://github.com)
-
-### 이모찌
-이모찌 추가하기 :bowtie:
-
