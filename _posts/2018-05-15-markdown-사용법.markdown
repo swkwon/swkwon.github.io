@@ -2,7 +2,7 @@
 layout: post
 title:  "markdown 사용법"
 date:   2018-05-15 23:19:48 +0900
-tags: [markdown, tag1]
+tags: [markdown]
 ---
 ### 강조
 글을 작성할 때 특별한 단어에 `강조`를 주고 싶을 때가 있다. 
