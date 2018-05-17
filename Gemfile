@@ -14,6 +14,7 @@ gem "jekyll", "~> 3.8.1"
 gem "minima", "~> 2.0"
 gem "jekyll-theme-awesome"
 gem 'jekyll-theme-midnight', '~> 0.1.1'
+gem 'jekyll-theme-hacker', '~> 0.1.1'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
