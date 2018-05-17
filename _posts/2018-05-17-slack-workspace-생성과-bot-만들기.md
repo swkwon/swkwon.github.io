@@ -180,3 +180,4 @@ message가 윌리엄으로 시작하면 `Hello!`를 응답합니다.
 ![응답]({{site.url}}/assets/res_bot.png)
 
 간단하게 커스터마이즈한 봇을 만들었습니다.
+[rmt_slack은 여기에서 받을 수 있습니다.](https://github.com/swkwon/rtm_slack)
