@@ -39,3 +39,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# navigation:
+#  - title: Categories
+#    url: /category
