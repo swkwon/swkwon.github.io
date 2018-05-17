@@ -8,5 +8,6 @@ title: Categories
 	<ul>
 		<li><a href="./category/etc">etc</a></li>
 		<li><a href="./category/slack">slack</a></li>
+		<li><a href="./category/go">Go</a></li>
 	</ul>
 </div>

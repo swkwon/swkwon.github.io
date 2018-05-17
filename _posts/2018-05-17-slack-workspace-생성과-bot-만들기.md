@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 슬랙과 슬랙봇
+date:   2018-05-17 15:00:00 +0900
 categories: [slack]
 ---
 
