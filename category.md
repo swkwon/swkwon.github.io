@@ -5,9 +5,10 @@ title: Categories
 
 <div class="post">
 	<h1 class="pageTitle">Categories</h1>
-	<ul>
-		<li><a href="./category/etc">etc</a></li>
-		<li><a href="./category/slack">slack</a></li>
-		<li><a href="./category/go">Go</a></li>
+	<ul><font size="5">
+		<li><a href="{{site.url}}/etc">etc</a></li>
+		<li><a href="{{site.url}}/slack">slack</a></li>
+		<li><a href="{{site.url}}/go">Go</a></li>
+		</font>
 	</ul>
 </div>
