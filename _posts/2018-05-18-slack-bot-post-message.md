@@ -90,7 +90,7 @@ api := slack.New(def.APIToken)
 ```
 
 첫째줄 parameter 변수 `params`를 하나 만듭니다.
-두번째줄에 보낼 내용을 `attachment`를 만듭니다. 
+두번째줄에 보낼 내용 `attachment`를 만듭니다. 
 11번째줄에 `params.Attachments`에 `attachment`를 추가합니다.
 주석처리가 된 `// params.AsUser = true`가 있는데 `AsUser`는 기본값이 `false` 입니다.
 `true`가 되면 slack bot 설정 페이지에서 설정했던 이름과 프로필사진(혹은 이모찌 아이콘)으로 출력이 되며,
@@ -104,7 +104,7 @@ api := slack.New(def.APIToken)
 	}
 ```
 
-보낼 데이터는 PostMessage 함수를 이용하여 보내고 에러가 있는지 검사하는 코드입니다.
+PostMessage 함수를 이용하여 데이터를 보내고 에러가 있는지 검사하는 코드입니다.
 이제 프로그램을 실행해보면 아래와 같이 나옵니다.
 
 ![결과물](/assets/postmessage.png)
