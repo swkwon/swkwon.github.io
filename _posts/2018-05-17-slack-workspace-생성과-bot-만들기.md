@@ -14,11 +14,11 @@ categories: [slack]
 `[workspace].slack.com/apps`로 이동하면 app을 다운로드 받을 수 있습니다.
 봇앱은 workspace에 한번만 설치하면 나중에 봇을 계속 추가할 수 있습니다.
 
-![addbot]({{site.url}}/assets/add_bots.png)
+![addbot](/assets/add_bots.png)
 
 봇을 만들때 봇이 참여할 채널을 설정해도 되고, 만들어진 채널에 봇을 추가해도 됩니다.
 
-![api token]({{site.url}}/assets/api_token.png)
+![api token](/assets/api_token.png)
 
 봇을 만들었을 때 API Token이 생성되는데 보안에 유지하도록 합니다.
 
@@ -175,7 +175,7 @@ func ParseMessage(rtm *slack.RTM, message string) {
 ```
 message가 윌리엄으로 시작하면 `Hello!`를 응답합니다.
 
-![응답]({{site.url}}/assets/res_bot.png)
+![응답](/assets/res_bot.png)
 
 간단하게 커스터마이즈한 봇을 만들었습니다.
 
