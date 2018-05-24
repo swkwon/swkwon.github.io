@@ -32,8 +32,8 @@ import (
 
 func main() {
 	opts := badger.DefaultOptions
-	opts.Dir = "./"
-	opts.ValueDir = "./"
+	opts.Dir = ".\\"
+	opts.ValueDir = ".\\"
 	db, err := badger.Open(opts)
 	if err != nil {
 		log.Fatal(err)
