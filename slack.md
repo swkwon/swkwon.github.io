@@ -1,5 +1,6 @@
 ---
 layout: default
+title: slack
 ---
 
 <font size="5">

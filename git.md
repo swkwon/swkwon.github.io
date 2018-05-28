@@ -1,12 +1,12 @@
 ---
 layout: default
-title: etc
+title: Git
 ---
 
 <font size="5">
-etc에 포함된 글들:
+Git에 포함된 글들:
 <ul>
-	{% for post in site.categories.etc %}
+	{% for post in site.categories.git %}
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
