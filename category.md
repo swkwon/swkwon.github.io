@@ -10,6 +10,7 @@ title: Categories
 		<li><a href="{{site.url}}/slack">slack</a></li>
 		<li><a href="{{site.url}}/go">Go</a></li>
 		<li><a href="{{site.url}}/git">Git</a></li>
+		<li><a href="{{site.url}}/docker">docker</a></li>
 		</font>
 	</ul>
 </div>
