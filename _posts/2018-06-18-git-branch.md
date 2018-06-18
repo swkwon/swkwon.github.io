@@ -26,6 +26,7 @@ $ git checkout master
 ```bash
 $ git merge job
 ```
+job branch를 master branch에 머지 합니다.
 
 ## branch 삭제하기
 ```bash
